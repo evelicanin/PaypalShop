@@ -1,0 +1,108 @@
+#page-wrapper {
+  background-color: #F1F1F1 !important;
+}
+
+.product_image {
+
+width: 200px !important;
+height: 100px !important;
+
+
+}
+
+#admin_sidebar .form-group {
+
+background-color: #fff;
+padding: 8px;
+
+}
+
+#admin_sidebar .form-group hr {
+
+margin-top: 10px;
+margin-bottom: 10px;
+
+
+}
+
+#admin_sidebar .btn{
+
+width: 49%;
+
+}
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #ADADAD;
+}
+
+.thumbnail_admin{ margin:10px;}
+
+.thumbnail_admin:hover{
+    margin:10px;
+    border: 3px solid #D62727;
+}
+
+ .view {
+   width: 230px;
+   height: 130px;
+   margin: 10px;
+   float: left;
+   border: 5px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   box-shadow: 0px 0px 5px #aaa;
+   cursor: default;
+}
+
+
+.view .mask, .view .content {
+   width: 230px;
+   height: 130px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+
+.view img {
+   width: 200px;
+   height: 100px;
+   display: block;
+   position: relative;
+}
+
+.view a.info {
+
+   display: inline-block;
+   text-decoration: none;
+   padding:0;
+   text-indent:-9999px;
+
+}
+.third-effect .mask {
+   opacity: 0;
+   overflow:visible;
+   border:100px solid rgba(0,0,0,0.7);
+   box-sizing:border-box;
+   transition: all 0.4s ease-in-out;
+}
+
+.third-effect a.info {
+   position:relative;
+   top:-10px; /* Center the link */
+   opacity: 0;
+   transition: opacity 0.5s 0s ease-in-out;
+}
+
+.third-effect:hover .mask {
+   opacity: 1;
+   border:100px solid rgba(0,0,0,0.7);
+}
+
+.third-effect:hover a.info {
+   opacity:1;
+   transition-delay: 0.3s;
+}
